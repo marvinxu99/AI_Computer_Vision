@@ -1,3 +1,5 @@
+# https://docs.pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html
+
 import torch
 import numpy as np
 
@@ -25,3 +27,11 @@ zeros_tensor = torch.zeros(shape)
 print(f"Random Tensor: \n {rand_tensor} \n")
 print(f"Ones Tensor: \n {ones_tensor} \n")
 print(f"Zeros Tensor: \n {zeros_tensor}")
+
+# Tensor Attributes
+# Tensor attributes describe their shape, datatype, and the device on which they are stored.
+tensor = torch.rand(3, 4)
+
+print(f"Shape of tensor: {tensor.shape}")
+print(f"Datatype of tensor: {tensor.dtype}")
+print(f"Device tensor is stored on: {tensor.device}")
