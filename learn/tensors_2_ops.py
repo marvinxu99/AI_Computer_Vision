@@ -26,3 +26,9 @@ print(t1)
 print(f"tensor.mul(tensor) \n {tensor.mul(tensor)} \n")
 # Alternative syntax:
 print(f"tensor * tensor \n {tensor * tensor}")
+
+# In-place operations Operations that have a _ suffix are in-place. 
+# For example: x.copy_(y), x.t_(), will change x.
+print(tensor, "\n")
+tensor.add_(5)
+print(tensor)
