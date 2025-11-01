@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+# model  
+model_weights.pth
+
 # my test output folders
 SavedEmails/
 
@@ -141,3 +145,4 @@ openai-whisper/transcription_2.txt
 
 # Downloaded dataset
 learn/j_notebook/data/
+"learn/j_notebook/model_weights.pth" 
