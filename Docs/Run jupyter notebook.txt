@@ -1,0 +1,28 @@
+Run Jupyter Notebooks in the same venv
+
+If your book includes .ipynb notebooks and you want to execute them interactively:
+
+Install JupyterLab or Notebook inside your venv
+    pip install notebook
+
+
+Then launch:
+
+    jupyter notebook
+
+
+or
+
+    jupyter lab
+
+
+This ensures your book’s kernels and dependencies all match the same virtual environment.
+
+
+To include your venv as a selectable Jupyter kernel:
+
+    pip install ipykernel
+    python -m ipykernel install --user --name=venv --display-name "Python (venv)"
+
+
+You can now open notebooks from VS Code, JupyterLab, or your book build, and they’ll all use your virtual environment’s Python.
