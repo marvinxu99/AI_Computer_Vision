@@ -10,7 +10,8 @@ model_weights.pth
 
 # data set files
 learn/j_notebook/Learn_pytorch_deep_dive/data/FashionMNIST/raw/*
-
+learn/j_notebook/Learn_pytorch_deep_dive/data/MNIST/raw/*
+learn/j_notebook/Learn_pytorch_deep_dive/runs/*
 
 # my test output folders
 SavedEmails/
