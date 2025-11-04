@@ -8,6 +8,10 @@ __pycache__/
 model_weights.pth
 *.pth
 
+# data set files
+learn/j_notebook/Learn_pytorch_deep_dive/data/FashionMNIST/raw/*
+
+
 # my test output folders
 SavedEmails/
 
