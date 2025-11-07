@@ -16,6 +16,8 @@ learn/j_notebook/Learn_pytorch_deep_dive/model_2025*
 learn/j_notebook/Learn_pytorch_deep_dive/data/img/*
 Projects/KinSight/family_dataset/*
 temp/*
+Projects/KinSight/model_2025*
+Projects/KinSight/runs/*
 
 
 # my test output folders
